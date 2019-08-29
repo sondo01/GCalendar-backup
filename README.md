@@ -8,15 +8,16 @@ USE WITH YOUR OWN RISK.
 29-Aug-2019: Scratch script for backup Google Calendar (similar to Export function from Google Calendar)
 
 This script will:
-a) Connect to Google Calendar
-b) Export all calendars or calendars those are in Backup_calendars tuple (if provided)
-c) Each calendar will be save in iCalendar format (.ics)
-d) Reminders are handled
-e) This script is tested on Linux, Mac OS X and supposed to work on Windows. Carriage return keys ("\r\n") could cause trouble on Windows. I don't have Windows to test.
+
+1. Connect to Google Calendar
+2. Export all calendars or calendars those are in Backup_calendars tuple (if provided)
+3. Each calendar will be save in iCalendar format (.ics)
+4. Reminders are handled
+5. This script is tested on Linux, Mac OS X and supposed to work on Windows. Carriage return keys ("\r\n") could cause trouble on Windows. I don't have Windows to test.
 
 This script will NOT handle (implement them yourself if needed):
-a) ATTENDEE
-b) Conference and other info
+1. ATTENDEE
+2. Conference and other info
 
 To setup, I followed this reference:
 https://developers.google.com/google-apps/calendar/quickstart/python
