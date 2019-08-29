@@ -66,12 +66,8 @@ BACKUPDIR = "GGBK"
 # If modifying these scopes, delete your previously saved credentials
 # at ~/.credentials/calendar-python-quickstart.json
 SCOPES = 'https://www.googleapis.com/auth/calendar.readonly'
-CLIENT_SECRET_FILE = '/home/sondo/Reminder/credentials.json'
+CLIENT_SECRET_FILE = 'Path_to_your/credentials.json'
 APPLICATION_NAME = 'Reminder'
-
-# Ecolinc_calendar=['Conference', 'Lizard Lounge', 'Hort Lab', 'Demo', 'Events', 'Spectro Lab', 'Bandicoot Room', 'HPLC Lab', 'Seminar', 'Outreach']
-
-# List of calendars to be backup. If not provided, all calendars will be Backup_calendars
 
 now = datetime.datetime.now()
 DTSTAMP = now.strftime ("%Y-%m-%dT%H:%M:%S") + "+10:00"
